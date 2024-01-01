@@ -11,6 +11,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        print(UIFont.fontNames(forFamilyName: "Arial"))
         // Do any additional setup after loading the view.
     }
 
